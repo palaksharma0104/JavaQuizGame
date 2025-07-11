@@ -75,11 +75,10 @@ public class Game {
 	        int score = 0;
 	        for (int i = 0; i < 5 && i < answers.size(); i++) {
 	            if (questionBank.get(i).checkAnswer(answers.get(i))) {
-	                score++;
+	                score++;0
 	            }
 	        }
 	        return score;
 	    }
 	}
-
 
